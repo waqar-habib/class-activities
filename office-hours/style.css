@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid red;
+}
+
+div{
+    display: flex;
+    background: orange;
+}
+
+.flex-container{
+    width:100vw;
+    min-height: 100vh;
+    background: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+#item1{
+    order: 2;
+    flex-grow: 1;
+    background: pink;
+    flex-direction: column;
+}
+#item2{
+    align-self: center;
+    order: 3;
+}
+#item3{
+    order: 0;
+}

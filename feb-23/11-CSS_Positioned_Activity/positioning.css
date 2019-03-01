@@ -1,0 +1,27 @@
+.fixed{
+    position: fixed;
+    
+}
+
+.fixed, .relative, .absolute {
+    
+    width: 75%;
+    height: 75%;
+}
+
+.fixed{
+    background: silver;
+    top: 0;
+    left: 0;
+}
+.relative{
+    background: orange;
+    top: 50%;
+    left: 50%;
+
+}
+.absolute{
+    background: green;
+    bottom: -10px;
+    right: 50%;
+}

@@ -17,3 +17,29 @@
     letter-spacing: 0.3em;
     
 }
+
+/* Unvisited links */
+a:link { 
+    color: blue; 
+}        
+/* Visited links */  
+a:visited { 
+    color: purple; 
+}     
+/* Hovered links */
+a:hover { 
+    background: yellow; 
+}  
+/* Active links */
+a:active { 
+    color: red; 
+}        
+/* Active paragraphs */
+p:active { 
+    background: #eee; 
+}  
+/* Press TAB to see the effect */ 
+a:focus{
+    background: green;
+    color: pink;
+}
